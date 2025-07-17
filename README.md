@@ -110,10 +110,6 @@ xlogger-osint/
 
 ---
 
-## ✨ Créditos
-
-Criado por Marcos Tolosa (@MindSecurity) com auxílio do ChatGPT.
-
 Referências:
 - [MDN Web Docs – getUserMedia](https://developer.mozilla.org/docs/Web/API/MediaDevices/getUserMedia)
 - [MDN – Geolocation API](https://developer.mozilla.org/docs/Web/API/Geolocation_API)
