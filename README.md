@@ -26,8 +26,8 @@ Esta ferramenta foi criada **exclusivamente para fins educacionais**, treinament
 
 ### 1. Clone ou baixe o repositório
 ```bash
-git clone https://github.com/seu-usuario/xlogger-osint.git
-cd xlogger-osint
+git clone https://github.com/marcostolosa/xlogger.git
+cd xlogger
 ```
 
 ### 2. Configure seu webhook Discord
